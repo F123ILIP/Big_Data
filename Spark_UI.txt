@@ -1,0 +1,9 @@
+Spark UI to narzędzie, które umożliwia monitorowanie i debugowanie aplikacji Spark. W poszczególnych zakładkach można znaleźć różne informacje na temat działania aplikacji.
+
+    Jobs: Tutaj można znaleźć informacje o zadaniach (jobach), takie jak ich status, czas trwania, liczba zadań potomnych, błędy itp.
+    Stage: Zakładka ta zawiera informacje o etapach (stage) w ramach poszczególnych zadań, w tym o ilości zadań w danym etapie, czasie ich trwania, błędach itp.
+    Storage: W tej sekcji znajdują się informacje o wykorzystaniu pamięci podręcznej (cache) oraz o danych przechowywanych w pamięci.
+    Executors: Tutaj można znaleźć informacje o wykonawcach (executors), takie jak ich status, obciążenie, wykorzystanie zasobów, itp.
+    SQL/Dataframe: Ta zakładka zawiera informacje o zapytaniach SQL oraz operacjach na DataFrame'ach, w tym o wykorzystaniu zasobów, planie wykonawczym, czasie trwania itp.
+
+Informacje o dystrybucji danych można znaleźć głównie w zakładce Stage, gdzie można prześledzić, jak dane są dzielone na poszczególne etapy przetwarzania.
